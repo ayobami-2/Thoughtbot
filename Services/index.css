@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body
+{
+   background-color: white;
+    width: 100%;
+
+}
+.header
+{
+    border: 0;
+    width: 100%;
+    height: 76px;
+}
+.header .nav
+{
+    border: 0;
+    width: 93%;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav .logo
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+     
+}
+.header .nav .logo p a
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E03131;
+    text-decoration: none;
+}
+
+.header .nav ul
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+.header .nav ul li
+{
+    list-style-type: none;
+    
+}
+.header .nav ul li a
+{
+   text-decoration: none;
+   color: #494A51;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header .nav ul li a:hover
+{
+    color: #E03131;
+    text-decoration: underline;
+}
+
+
+.header .nav .btn
+{
+    border: none;
+    width: 174px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #E03131;
+    
+}
+.header .nav .btn a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header .nav .btn:hover
+{
+    border: medium solid blue;
+   
+}
+.header .nav .btnn
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header .nav .btnn .cle
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #494a511b;
+}
+.header .nav .btnn .cle i
+{
+    padding: 13px;
+    font-size: 15px;
+}
+.wrapper
+{
+
+    border: 0;
+    width: 95%;
+    height: 500px;
+    margin-inline: auto;
+    margin-top: 20px;
+   
+
+}
+.wrapper .container 
+{
+    display: flex;
+    gap: 3rem;
+}
+.wrapper .container ul
+{
+    font-size: 18px;
+    
+}
+.wrapper .container .team
+{
+    margin-top: 30px;
+    margin-left: -45px;
+}
+.wrapper .container ul a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: #494A51;
+}
+.wrapper .container ul a:hover
+{
+    color: #E03131;
+    text-decoration: underline;
+}
+
+.wrapper .container ul li
+{
+    list-style-type: none;
+    line-height: 2.5;
+    
+}
+.wrapper .container ul li a
+{
+    text-decoration: none;
+    font-size: 17px;
+    color: #494A51;
+}
+.wrapper .container ul li a:hover
+{
+    color: #E03131;
+    text-decoration: underline;
+}

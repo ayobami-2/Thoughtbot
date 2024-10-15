@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+@media(max-width: 1000px) {
+    .header .nav ul 
+    {
+       flex-wrap: wrap;
+    }
+
+}
+@media(max-width: 900px) {
+    .header .nav ul 
+    {
+       
+    }
+
+}
+
+
+body
+{
+   background-color: white;
+    width: 100%;
+
+}
+.header
+{
+    border: 0;
+    width: 100%;
+    height: 76px;
+}
+.header .nav
+{
+    border: 0;
+    width: 93%;
+    height: 70px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .nav .logo
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+     
+}
+.header .nav .logo p a
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E03131;
+    text-decoration: none;
+}
+
+.header .nav ul
+{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+.header .nav ul li
+{
+    list-style-type: none;
+    
+}
+.header .nav ul li a
+{
+   text-decoration: none;
+   color: #494A51;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.header .nav ul li a:hover
+{
+    color: #E03131;
+    text-decoration: underline;
+}
+.header .nav .btnn
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header .nav .btnn .cle
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #494a511b;
+}
+.header .nav .btnn .cle i
+{
+    padding: 13px;
+    font-size: 15px;
+}
+
+.header .nav .btn
+{
+    border: none;
+    width: 174px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #E03131;
+    
+} 
+.header .nav .btn a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header .nav .menu2
+{
+    position: relative;
+}
+.header .nav .menu2 .dropmenu2
+{
+    position: absolute;
+    border: medium solid blue;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    margin-left: -650px;
+    margin-top: 50px;
+    gap: 10rem;
+    display: none;
+   
+}
+.header .nav .menu2:hover > .dropmenu2
+{
+    display: flex;
+    position: static;
+    margin-top: 500px;
+}
+
+.header .nav .menu2 .dropmenu2 .sub-menu
+{
+    display: block;
+ 
+    
+}
+.header .nav .menu2 .dropmenu2 .sub-menu li
+{
+    line-height: 3;
+}
+.header .nav .menu2 .dropmenu2 .sub-menu li a
+{
+    color: #494A51;
+    font-size: 18px;
+}
+.header .nav .menu2 .dropmenu2 .sub-menu li a:hover
+{
+    color: #E03131;
+    text-decoration: underline;
+}
+.header .nav .menu2 .dropmenu2 .sub-menu2
+{
+    display: block;
+   
+   
+
+}
+.header .nav .menu2 .dropmenu2 .sub-menu2 li
+{
+    line-height: 3;
+
+}
